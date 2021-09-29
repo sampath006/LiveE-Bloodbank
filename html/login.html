@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="icon" href="../images/img.jfif" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="..\css\stylesheet.css">
+	<!-- href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" -->
+</head>
+<body id="login">
+
+
+	<form id = "login-box" action="..\index.html" method="post" >
+
+	<!-- <form id = "login-box" action="..\index.html" method="post"> -->
+
+
+		<a href="..\index.html">
+			<img src="..\images\wrong.png" id = "wrong-image">
+		</a>
+		<h1>Login</h1>
+
+		<span>Type of Login : </span>
+
+		<input type="radio" class="radio" name="type" value="user"/ required>
+       	<label for="male">User</label>
+       	<input type="radio" class="radio" name="type" value="hospital"/>
+       	<label for="z">Hospital</label>
+
+
+		<input type="text" name="username" placeholder="Enter User Name"/ required>
+		<input type="password" name="password" placeholder="Enter Password"/ required>
+		<input type="submit" name="" value = "Login">
+		<div class="signup">
+		*Don't have an account <a href="signup.html">Sign Up</a></div>
+	</form>
+
+</body>
+</html>
